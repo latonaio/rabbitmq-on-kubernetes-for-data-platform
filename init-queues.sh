@@ -20,11 +20,16 @@ queues=(
 
   data-platform-api-product-master-exconf-queue
 
-  data-platform-api-orders-creates-queue-from
+  data-platform-api-orders-creates-queue
   data-platform-api-orders-headers-creates-subfunc-queue
-  data-platform-api-orders-pdf-creates-queue-from
-  data-platform-api-orders-pdf-creates-queue-to
+  data-platform-api-orders-pdf-creates-queue
   data-platform-api-orders-creates-session-control-queue
+  
+  data-platform-api-currency-exconf-queue
+  
+  data-platform-api-payment-terms-exconf-queue
+
+  data-platform-api-payment-method-exconf-queue
 
   sql-update-kube
 
